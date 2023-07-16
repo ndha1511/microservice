@@ -8,10 +8,12 @@
         <option value="$PROJECT_DIR$/InventoryService/pom.xml" />
         <option value="$PROJECT_DIR$/discovery_server/pom.xml" />
         <option value="$PROJECT_DIR$/api_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/notification_service/pom.xml" />
+        <option value="$PROJECT_DIR$/account_service/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
