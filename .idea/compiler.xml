@@ -7,6 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="newgateway" />
+        <module name="notification" />
+        <module name="user_service" />
+        <module name="spring_security" />
+        <module name="Test" />
         <module name="ProductService" />
         <module name="notification_service" />
         <module name="InventoryService" />
@@ -18,12 +23,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account_service" target="17" />
-      <module name="api_gateway" target="17" />
-      <module name="discovery_server" target="17" />
-      <module name="InventoryService" target="17" />
-      <module name="notification_service" target="17" />
-      <module name="OrderService" target="17" />
-      <module name="ProductService" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,10 +30,15 @@
       <module name="InventoryService" options="-parameters" />
       <module name="OrderService" options="-parameters" />
       <module name="ProductService" options="-parameters" />
+      <module name="Test" options="-parameters" />
       <module name="account_service" options="-parameters" />
       <module name="api_gateway" options="-parameters" />
       <module name="discovery_server" options="-parameters" />
+      <module name="newgateway" options="-parameters" />
+      <module name="notification" options="-parameters" />
       <module name="notification_service" options="-parameters" />
+      <module name="spring_security" options="-parameters" />
+      <module name="user_service" options="-parameters" />
     </option>
   </component>
 </project>
